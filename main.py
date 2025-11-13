@@ -19,7 +19,7 @@ def count_days(user_date):
     # Возвращаем количество дней
     return delta.days
 
-# Запрашиваем у пользователя ввод даты
+
 user_input = input("Введите дату (ДД.ММ.ГГГГ): ")
 # Вызываем функцию для подсчета дней
 days = count_days(user_input)
